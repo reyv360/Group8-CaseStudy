@@ -6,6 +6,8 @@ public class Student
     private intr studnum;
     private String Course;
     private String Address;
+    private String guardian;
+    private String Gender;
 
     //Method 1:reyval
     public void getFname(String Fname)
@@ -49,4 +51,26 @@ public class Student
     public String showAddress(String Address)
     {
         return Address;
+    }
+
+//Method 5:Greyam
+    public void getguardian's name(guardian's name)
+    {
+        this.guardian's name = guardian's name;
+    }
+ 
+    public String showguardian's name(String guardian's name)
+    {
+        return guardian's name;
+    }
+    
+    //Method 6: Greyam
+    public void getGender(Gender)
+    {
+        this.Gender = Gender;
+    }
+    
+    public String showGender(String Gender)
+    {
+        return Gender;
     }
