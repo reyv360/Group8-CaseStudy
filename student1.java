@@ -3,11 +3,12 @@ package studentinformation;
 public class Student 
 {
     private String Fname;
-    private intr studnum;
+    private int studnum;
     private String Course;
     private String Address;
-    private String guardian;
+    private String guardian's;
     private String Gender;
+    private String DateofBirth;
 
     //Method 1:reyval
     public void getFname(String Fname)
@@ -73,4 +74,14 @@ public class Student
     public String showGender(String Gender)
     {
         return Gender;
+    }
+//Method 7:Ronalie
+    public void getDate of Birth(DateofBirth)
+    {
+        this.Date of Birth = DateofBirth;
+    }
+ 
+    public String showDate of Birth(String DateofBirth)
+    {
+        return DateofBirth;
     }
