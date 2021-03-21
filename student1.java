@@ -9,6 +9,7 @@ public class Student
     private String guardian's;
     private String Gender;
     private String DateofBirth;
+    private int ContactNo.
 
     //Method 1:reyval
     public void getFname(String Fname)
@@ -84,4 +85,15 @@ public class Student
     public String showDate of Birth(String DateofBirth)
     {
         return DateofBirth;
+    }
+
+  //Method 8: Deavic
+    public void getContactNo.(Contact No.)
+    {
+        this.ContactNo. = ContactNo.;
+    }
+    
+    public Int showContactNo.(int ContactNo.)
+    {
+        return ContactNo.;
     }
